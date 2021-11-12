@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".SignupFragment">
+
+    <TextView
+        android:id="@+id/tw4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/advent_pro_bold"
+        android:text="@string/sign_up"
+        android:textColor="#050505"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/smail"
+        android:layout_width="302dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/tw4"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/shpe2"
+        android:drawableEnd="@drawable/ic_baseline_alternate_email_24"
+        android:hint="@string/enter_mail"
+        android:inputType="text"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/spassword"
+        android:layout_width="302dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/smail"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/shpe2"
+        android:drawableEnd="@drawable/ic_baseline_lock_24"
+        android:hint="@string/enter_password"
+        android:inputType="text"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:autofillHints=""
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/scpassword"
+        android:layout_width="302dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/spassword"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/shpe2"
+        android:drawableEnd="@drawable/ic_baseline_lock_24"
+        android:hint="@string/confirm_password"
+        android:inputType="text"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:autofillHints=""
+        tools:ignore="TextFields" />
+    <EditText
+        android:id="@+id/snumber"
+        android:layout_width="302dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/scpassword"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/shpe2"
+        android:drawableEnd="@drawable/ic_baseline_local_phone_24"
+        android:hint="@string/enter_phone_number"
+        android:inputType="number"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/tw5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/snumber"
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/advent_pro_bold"
+        android:textSize="26dp"
+        android:layout_marginTop="20dp"
+        android:text="Gender"
+        app:drawableStartCompat="@drawable/ic_gender_svgrepo_com" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rg1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/ic_dumbell_svgrepo_com"
+        android:fontFamily="@font/advent_pro_bold"
+        android:text="Workout plan"
+        android:textColor="@color/black"
+        android:textSize="26dp" />
+
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tw5"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/malerb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="male " />
+
+        <RadioButton
+            android:id="@+id/Femalerb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="Female" />
+    </RadioGroup>
+    <RadioGroup
+        android:id="@+id/rg2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv1"
+        android:orientation="horizontal"
+      >
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="Beginner"/>
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="intermediate"/>
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Advanced"/>
+
+
+
+
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/sb"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rg2"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="100dp"
+        android:background="@drawable/buttonbg"
+        android:backgroundTint="@color/purple_200"
+        android:text="Sign-up"
+        app:backgroundTint="@null"
+        android:layout_marginBottom="50dp"/>
+
+</RelativeLayout>
+</ScrollView>
