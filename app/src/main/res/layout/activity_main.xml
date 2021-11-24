@@ -7,7 +7,7 @@
     android:background="@color/purple_200"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".loginpages.Splash">
 
     <ImageView
         android:id="@+id/logo"

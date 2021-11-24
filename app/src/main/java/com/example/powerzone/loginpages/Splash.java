@@ -1,4 +1,4 @@
-package com.example.powerzone;
+package com.example.powerzone.loginpages;
 
 import android.content.Intent;
 import android.os.Build;
@@ -12,7 +12,9 @@ import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+import com.example.powerzone.R;
+
+public class Splash extends AppCompatActivity {
     private static int splash=2500;
     ImageView logo;
     Animation top;
@@ -35,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent=new Intent(MainActivity.this,Login.class);
+                Intent intent=new Intent(Splash.this,Login.class);
                 startActivity(intent);
                 finish();
 

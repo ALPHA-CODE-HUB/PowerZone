@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "837610521159",
+    "project_id": "powerzone-135c9",
+    "storage_bucket": "powerzone-135c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837610521159:android:24ef9b1210c9387448a762",
+        "android_client_info": {
+          "package_name": "com.example.powerzone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837610521159-304jhk8a73s7mshantddkphvtk0clrqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-ITqKjym7AEkWjdUO2h4GB4lIVu6XCBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "837610521159-304jhk8a73s7mshantddkphvtk0clrqd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
